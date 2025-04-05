@@ -1,5 +1,5 @@
 SELECT
-    s.name AS nome_escola,
+    s.name AS nome_school,
     students.enrolled_at AS dia_matricula,
     COUNT(students.id) AS quantidade_alunos,
     SUM(courses.price) AS valor_total_matriculas
